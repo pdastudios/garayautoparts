@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
 
 
-const RelatedDoctors = ({ product, docId }) => {
+const TourStore = ({ product, docId }) => {
 
     const navigate = useNavigate()
     const { doctors } = useContext(AppContext)
@@ -39,4 +39,4 @@ const RelatedDoctors = ({ product, docId }) => {
     )
 }
 
-export default RelatedDoctors
+export default TourStore

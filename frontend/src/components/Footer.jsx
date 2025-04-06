@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
           <img src={assets.logo} alt="Garay Logo" className="w-40 mb-4" />
           <p className="text-sm text-gray-600 leading-relaxed max-w-md">
-            Garay AutoParts es tu tienda de confianza para piezas automotrices en Puerto Rico. Calidad, servicio y experiencia en cada entrega.
+            En <strong>Garay AutoParts</strong>, combinamos calidad, experiencia y atención personalizada para ayudarte a mantener tu vehículo en óptimas condiciones. Nos enorgullece ofrecer un servicio confiable, rápido y cercano que nuestros clientes pueden contar todos los días.
           </p>
         </div>
 

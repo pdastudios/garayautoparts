@@ -4,9 +4,9 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaClock, FaEnvelope, FaBriefcase } from 're
 
 const Contact = () => {
   return (
-    <section className="bg-white w-full py-20 px-6 sm:px-10 md:px-20 text-gray-800">
+    <section className="bg-white w-full py-20 px-6 sm:px-10 md:px-20 text-gray-800 pt-40">
       <div className="text-center mb-12">
-        <h2 className="text-3xl sm:text-4xl font-bold text-red-600" data-aos="fade-down">
+        <h2 className="text-3xl sm:text-4xl font-bold text-red-600" data-aos="fade-up">
           CONTÁCTANOS
         </h2>
         <p className="text-gray-500 text-sm sm:text-base mt-2" data-aos="fade-up" data-aos-delay="100">
@@ -16,7 +16,7 @@ const Contact = () => {
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 max-w-5xl mx-auto" data-aos="fade-up" data-aos-delay="200">
         {/* Logo or image */}
-        <img className="w-full md:max-w-[360px] rounded-lg shadow-md" src={assets.logo} alt="Garay Logo" />
+        <img className="w-full md:max-w-[360px] rounded-lg shadow-md" src={assets.store1} alt="Garay Logo" />
 
         {/* Info Box */}
         <div className="flex flex-col justify-center items-start gap-6 text-sm text-left">

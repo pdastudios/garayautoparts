@@ -1,11 +1,13 @@
-import appointment_img from './appointment_img.png'
+
 import header_img from './header_img.png'
 import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
-import contact_image from './contact_image.png'
-import about_image from './about_image.png'
+
+
 import logo from './garaypics/garay_logo.webp'
 import logotype from './garaypics/garay_logotype.png'
+import store_hero from './garaypics/store_hero.png'
+import store_hero1 from './garaypics/store_hero1.png'
 import store1 from './garaypics/store1.jpg'
 import store2 from './garaypics/store2.jpg'
 import store3 from './garaypics/store3.jpg'
@@ -32,35 +34,15 @@ import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
 import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
-import doc1 from './doc1.png'
-import doc2 from './doc2.png'
-import doc3 from './doc3.png'
-import doc4 from './doc4.png'
-import doc5 from './doc5.png'
-import doc6 from './doc6.png'
-import doc7 from './doc7.png'
-import doc8 from './doc8.png'
-import doc9 from './doc9.png'
-import doc10 from './doc10.png'
-import doc11 from './doc11.png'
-import doc12 from './doc12.png'
-import doc13 from './doc13.png'
-import doc14 from './doc14.png'
-import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.svg'
-import Gastroenterologist from './Gastroenterologist.svg'
-import General_physician from './General_physician.svg'
-import Gynecologist from './Gynecologist.svg'
-import Neurologist from './Neurologist.svg'
-import Pediatricians from './Pediatricians.svg'
 
 
 export const assets = {
-    appointment_img,
     header_img,
     group_profiles,
     logo,
     logotype,
+    store_hero,
+    store_hero1,
     store1,
     store2,
     store3,
@@ -79,8 +61,6 @@ export const assets = {
     info_icon,
     profile_pic,
     arrow_icon,
-    contact_image,
-    about_image,
     menu_icon,
     cross_icon,
     dropdown_icon,
@@ -158,9 +138,9 @@ export const storeTourData = [
 
 export const doctors = [
     {
-        _id: 'doc1',
+        _id: 'store1',
         name: 'Richard James',
-        image: doc1,
+        image: store1,
         product: 'Creative Director',
         degree: 'MBBS',
         experience: '4 Years',
@@ -172,9 +152,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc2',
+        _id: 'store1',
         name: 'Emily Larson',
-        image: doc2,
+        image: store1,
         product: 'Storyboard Artist',
         degree: 'MBBS',
         experience: '3 Years',
@@ -186,9 +166,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc3',
+        _id: 'store1',
         name: 'Sarah Patel',
-        image: doc3,
+        image: store1,
         product: 'Motion Designer',
         degree: 'MBBS',
         experience: '1 Years',
@@ -200,9 +180,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc4',
+        _id: 'store1',
         name: 'Christopher Lee',
-        image: doc4,
+        image: store1,
         product: 'Motion Designer',
         degree: 'MBBS',
         experience: '2 Years',
@@ -214,9 +194,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc5',
+        _id: 'store1',
         name: 'Jennifer Garcia',
-        image: doc5,
+        image: store1,
         product: 'Sound Designer',
         degree: 'MBBS',
         experience: '4 Years',
@@ -228,9 +208,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc6',
+        _id: 'store1',
         name: 'Andrew Williams',
-        image: doc6,
+        image: store1,
         product: 'Producer',
         degree: 'MBBS',
         experience: '4 Years',
@@ -242,9 +222,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc7',
+        _id: 'store1',
         name: 'Christopher Davis',
-        image: doc7,
+        image: store1,
         product: 'Animator',
         degree: 'MBBS',
         experience: '4 Years',
@@ -256,9 +236,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc8',
+        _id: 'store1',
         name: 'Timothy White',
-        image: doc8,
+        image: store1,
         product: 'Visual Effects (VFX) Artist',
         degree: 'MBBS',
         experience: '3 Years',
@@ -270,9 +250,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc9',
+        _id: 'store1',
         name: 'Ava Mitchell',
-        image: doc9,
+        image: store1,
         product: 'Creative Director',
         degree: 'MBBS',
         experience: '1 Years',
@@ -284,9 +264,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc10',
+        _id: 'store1',
         name: 'Jeffrey King',
-        image: doc10,
+        image: store1,
         product: 'Animator',
         degree: 'MBBS',
         experience: '2 Years',
@@ -298,9 +278,9 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc11',
+        _id: 'store1',
         name: 'Zoe Kelly',
-        image: doc11,
+        image: store1,
         product: 'Motion Designer',
         degree: 'MBBS',
         experience: '4 Years',

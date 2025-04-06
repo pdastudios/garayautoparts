@@ -6,15 +6,20 @@ const ProductMenu = () => {
   return (
     <div
       id="product"
-      className="flex flex-col items-center gap-6 py-20 px-4 text-gray-800 bg-gradient-to-b from-white to-gray-100"
+      className="flex flex-col items-center gap-6 py-20 px-4 text-gray-800"
     >
+      
       {/* Title */}
       <h1
         className="text-4xl sm:text-5xl font-extrabold tracking-wide text-red-600 drop-shadow-sm"
-        data-aos="fade-down"
+        data-aos="fade-up"
+        data-aos-offset="20"
+        data-aos-duration="500"
+        data-aos-easing="ease-out"
       >
         Nuestros Productos
       </h1>
+
 
       {/* Subtitle */}
       <p
@@ -27,7 +32,9 @@ const ProductMenu = () => {
 
       {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 pt-16 w-full max-w-6xl">
+        
         {productData.map((item, index) => (
+          
           <Link
             to={`/doctors/${item.product}`}
             onClick={() => scrollTo(0, 0)}
@@ -39,16 +46,22 @@ const ProductMenu = () => {
             data-aos="fade-up"
             data-aos-delay={index * 100}
           >
+            
             <div className="bg-gradient-to-tr from-gray-200 via-white to-gray-100 p-8 rounded-full mb-6 shadow-inner 
                             group-hover:scale-110 group-hover:rotate-1 transition-transform duration-500 ease-in-out">
+                              
               <img className="w-16 sm:w-24 md:w-28" src={item.image} alt={item.product} />
             </div>
             <p className="text-base md:text-lg font-semibold text-gray-700 group-hover:text-red-600 transition-colors duration-300 text-center">
               {item.product}
             </p>
+            
           </Link>
+          
         ))}
+        
       </div>
+      
     </div>
   )
 }
